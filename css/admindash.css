@@ -1,0 +1,108 @@
+body{
+    background: linear-gradient(to bottom, #cb356b 0%, #bd3f32 100%);
+}
+.topnav{
+  overflow: hidden;
+  background-color: rgba(2,255,255,0.3);
+  height: 5%;
+}
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.prof_table {
+    margin: 30%;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    height: 453px;
+    padding: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: rgba(2,255,255,0.3)
+  }
+  
+  .prof_table td {
+    vertical-align: center;
+    font-size: 15px;
+  }
+  .td{
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 23%;
+    margin-bottom: 12px;
+    
+
+  }
+  .td2{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .change-membership {
+    border: none;
+    margin-left: 200%;
+    border-radius: 4px;
+    height: 35px;
+    background: #3ecc9d;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    
+  }
+  .client{
+    
+    margin-left: 10px;
+    background: #3ecc9d;
+    padding: 10px;
+    margin:-10px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Verdana;
+  }
+  @media screen and (max-width:360px){
+    .prof_table{
+        width: 100%;
+        margin-left: 0;
+        height: 82%;
+        margin-top: 20px;
+        padding: 30px;
+    }
+  }
+  @media screen and (max-width:360px){
+    .topnav{
+        width: 100%;
+        margin-left: 0;
+        height: 40px;
+    }
+  }
+  @media screen and (max-width:415px){
+    .prof_table{
+        width: 100%;
+        margin-left: 0;
+        height: 82%;
+        padding: 32px;
+    }
+  }
+  @media screen and (max-width:768px){
+    .prof_table{
+        width: 100%;
+        margin-left: 0;
+        height: 82%;
+        padding: 10px;
+        font-size: 10px;
+    }
+  }
+  @media screen and (max-width:768px){
+    .prof_table td{
+     
+        font-size: 24px;
+    }
+  }
+

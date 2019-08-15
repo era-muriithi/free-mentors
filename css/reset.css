@@ -1,0 +1,75 @@
+
+body{
+    background: linear-gradient(to bottom, #cb356b 0%, #bd3f32 100%);
+}
+.topnav{
+    overflow: hidden;
+    background-color:rgba(2,255,255,0.3);
+    border-radius: 2%;
+}
+.topnav a{
+    float: right;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: yellow;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+.reset-container{
+    width: 50%;
+    height: 20%;
+    background-color: rgb(17, 17, 1);
+    margin: 0 auto;
+    margin-top: 20%;
+
+}
+.reset-container input[type="submit"]
+{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    height: 35px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 50px;
+
+}
+
+.reset-container input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #581845  ;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin: 23px;
+}
+.reset-container input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc109;
+    color: #000;
+}
+@media screen and (min-width:320px) and (max-width: 414px){
+    .reset-container{
+        width: 98%;
+
+    }
+
+    .btn-reset{
+        margin-left: 170px;
+
+    }
+}
+
+
+
+
+    
+
