@@ -1,0 +1,93 @@
+
+body {
+   background: linear-gradient(to bottom, #cb356b 0%, #bd3f32 100%);
+}
+
+.header {
+   background-color:rgba(2,255,255,0.3);
+   color: white;
+   font-size: 1.5em;
+   padding: 1rem;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 20px;
+}
+
+img {
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   
+}
+
+.table-users {
+   border: 1px solid darken(#398b93, 5%);
+   border-radius: 10PX;
+   margin-left: 50px;
+   
+   max-width: calc(100% - 2em);
+   margin: 1em auto;
+   width: 835px;
+   margin-top: 20px;
+}
+
+table {
+   width: 100%;
+   margin-left: 1px;
+   padding: 23px;
+   
+   
+}
+   
+   td,th { 
+      color: darken(#398b93, 10%);
+      padding: 10PX; 
+      
+   }
+   
+   td {
+      text-align: center;
+      vertical-align: middle;
+      font-size: 20px;
+
+    }
+   
+   th { 
+      background-color: lighten(#398b93, 50%);
+ 
+   }
+   .topnav{
+    overflow: hidden;
+    background-color: rgba(2,255,255,0.3);
+   }
+   .topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+   }
+   .dec-session{ 
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    height: 35px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 45px;
+   }
+   .acc-session{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    height: 35px;
+    background: #19ca27;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: -63px;
+   }
+   
+   
